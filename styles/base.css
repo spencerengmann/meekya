@@ -95,21 +95,32 @@ header {
 }
 
 #hero img {
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 300px;
     border-radius: 5px;
 }
+
 
 #book-button {
     position: absolute;
     top: 50%;
-    left: 47%;
-    font-size: 24px;
+    left: 38%;
+    font-size: 20px;
     border-radius: 5px;
+}
+
+#hero p {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    color: white;
+    font-size: 24px;
 }
 
 #book-button:hover {
     cursor: pointer;
+    background-color: #CC008F;
+    color: white;
 }
 
 .aboutme {
@@ -141,10 +152,18 @@ header {
 footer {
     background-color: #CC008F;
     padding-top: 1px;
-    color: white
+    color: white;
+    border-radius: 5px;
+
+
 }
 
 footer a {
     text-decoration: none;
     padding: 10px;
+
+}
+
+footer img {
+    border-radius: 5px;
 }
