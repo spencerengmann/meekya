@@ -30,6 +30,7 @@ nav ul li a {
 }
 
 
+
 nav ul li a:hover {
     background-color: var(--accent-color2);
     border-radius: 10px;
@@ -47,7 +48,9 @@ nav ul li a:hover {
     margin: .5rem 0 0 .5rem;
 
     border-radius: 5px;
-
+    font-size: 40px;
+    margin-top: 20px;
+    color: white
 }
 
 
@@ -81,13 +84,14 @@ nav ul li a:hover {
 header img {
     height: 90px;
     width: 90px;
+    border-radius: 6px;
 
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
 }
 
 .hero-container {
@@ -112,7 +116,7 @@ header {
 #hero p {
     position: absolute;
     top: 20%;
-    left: 7%;
+
     color: white;
     font-size: 24px;
 }
@@ -123,10 +127,17 @@ header {
     color: white;
 }
 
+.aboutme h2 {
+    margin: 5px;
+}
+
 .aboutme {
     border: solid 1.5px #520039;
     padding: 10px;
     border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    margin-left: 70px;
 
 }
 
@@ -166,4 +177,10 @@ footer a {
 
 footer img {
     border-radius: 5px;
+}
+
+.footer-contact-details p {
+
+    margin: 10px;
+    font-size: 14px;
 }
