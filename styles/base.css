@@ -21,7 +21,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    font-size: 24px;
+    font-size: 16px;
     text-decoration: none;
     color: black;
     text-align: center;
@@ -137,7 +137,7 @@ header {
     border-radius: 5px;
     width: 300px;
     text-align: center;
-    margin-left: 70px;
+    margin-left: 40px;
 
 }
 
