@@ -175,12 +175,22 @@ footer a {
 
 }
 
+.footer-logo p {
+
+    margin: 6px;
+}
+
 footer img {
     border-radius: 5px;
+
 }
 
 .footer-contact-details p {
 
     margin: 10px;
     font-size: 14px;
+}
+
+.footer-contact-details p b {
+    color: black;
 }
