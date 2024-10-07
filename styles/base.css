@@ -34,6 +34,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: var(--accent-color2);
     border-radius: 10px;
+    color:white;
 }
 
 .menu-hide,
@@ -99,10 +100,10 @@ header {
 }
 
 #hero img {
-    width: 400px;
-    height: 270px;
+    
     border-radius: 5px;
 }
+
 
 
 #book-button {
@@ -123,7 +124,7 @@ header {
 
 #book-button:hover {
     cursor: pointer;
-    background-color: #CC008F;
+    background-color: #520039;
     color: white;
 }
 
@@ -137,13 +138,14 @@ header {
     border-radius: 5px;
     width: 300px;
     text-align: center;
-    margin-left: 40px;
+    margin:0 auto;
+    margin-bottom:5px;
 
 }
 
 .aboutme img {
     width: 300px;
-    height: 400px;
+    height: 350px;
     border-radius: 5px;
 }
 

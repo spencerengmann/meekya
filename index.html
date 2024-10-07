@@ -27,20 +27,67 @@
           <li><a class="active" href="index.html">Home</a></li>
           <li><a class="active" href="services.html">Services</a></li>
           <li><a class="active" href="book.html">Book Now</a></li>
+          <li><a class="active" href="#aboutme">About Me</a></li>
         </ul>
       </nav>
     </header>
     <main id="index-main">
       <section id="hero">
         <div class="hero-container">
-          <img src="images/heo1.jpg" alt="hero image" />
-          <button id="book-button" onclick="book.html">Book Now</button>
-          <p>Transform Your Look, Elevate Your Confidence</p>
+          <picture>
+            <source srcset="images/hero-small.webp" media="(max-width:560px)" />
+            <source
+              srcset="images/hero-medium.webp"
+              media="(max-width:1200px)"
+            />
+            <img src="images/hero-large.webp" alt="Hero image" />
+          </picture>
+          <button id="book-button">Book now</button>
         </div>
       </section>
-      <div class="aboutme">
-        <section id="aboutme">
+      <h1>Some of Our Services</h1>
+      <div class="services">
+      <section class="services-section" id="service1">
+        <h2>Beauty Therapy</h2>
+        <img src="images/beauty therapy.jpg" alt="img1" />
+        <p>
+          Beauty therapy involves a range of treatments including facial
+          treatments, massage treatments, eye treatments, nail enhancements,
+          and more.
+        </p>
+      </section>
+      
+      <section class="services-section" id="service1">
+        <h2>Hair Technology</h2>
+        <img src="images/hairtec.webp" alt="img1" />
+        <p>
+          Our hair technology services include chemical processing, hair
+          treatments, extensions, braids, and the latest fashion hair trends.
+        </p>
+      </section>
+      <section class="services-section" id="service1">
+        <h2>Makeup Artistry</h2>
+        <img src="images/maekup.jpg" alt="img1" />
+        <p>
+          Our makeup artistry services aim to enhance your natural beauty,
+          offering a range of looks for different occasions.
+        </p>
+      </section>
+      <section class="services-section" id="service1">
+        <h2>Nail Technology</h2>
+        <img src="images/nails.webp" alt="img1" />
+        <p>
+          We offer manicure and pedicure services, nail extensions, and other
+          nail care treatments to keep your nails healthy and beautiful.
+        </p>
+      </section>
+      
+    </div>
+
+      <div id="aboutme">
+        <section class="aboutme">
           <h2>About Me</h2>
+          <div class="about-container">
           <img src="images/picofme.jpg" alt="about" />
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
@@ -48,45 +95,12 @@
             incidunt id eos dignissimos blanditiis maiores excepturi cupiditate
             libero voluptas quidem obcaecati.
           </p>
+          </div>
         </section>
       </div>
-      <div class="services">
-        <h1>Some of Our Services</h1>
-        <section class="services-section" id="service1">
-          <h2>Beauty Therapy</h2>
-          <img src="images/beauty therapy.jpg" alt="img1" />
-          <p>
-            Beauty therapy involves a range of treatments including facial
-            treatments, massage treatments, eye treatments, nail enhancements,
-            and more.
-          </p>
-        </section>
-        <section class="services-section" id="service1">
-          <h2>Hair Technology</h2>
-          <img src="images/hairtec.webp" alt="img1" />
-          <p>
-            Our hair technology services include chemical processing, hair
-            treatments, extensions, braids, and the latest fashion hair trends.
-          </p>
-        </section>
-        <section class="services-section" id="service1">
-          <h2>Makeup Artistry</h2>
-          <img src="images/maekup.jpg" alt="img1" />
-          <p>
-            Our makeup artistry services aim to enhance your natural beauty,
-            offering a range of looks for different occasions.
-          </p>
-        </section>
-        <section class="services-section" id="service1">
-          <h2>Nail Technology</h2>
-          <img src="images/nails.webp" alt="img1" />
-          <p>
-            We offer manicure and pedicure services, nail extensions, and other
-            nail care treatments to keep your nails healthy and beautiful.
-          </p>
-        </section>
-      </div>
+      
 
+       
       <footer>
         <div class="footer-logo">
           <p>
