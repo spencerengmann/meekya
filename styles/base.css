@@ -3,6 +3,9 @@
     --background-color: white;
     --accent-color: #CC008F;
     --accent-color2: #520039;
+    --border-background-color: rgba(82, 0, 57, 0.7);
+    /* 70% opacity */
+
 }
 
 body {
@@ -34,7 +37,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: var(--accent-color2);
     border-radius: 10px;
-    color:white;
+    color: white;
 }
 
 .menu-hide,
@@ -100,15 +103,26 @@ header {
 }
 
 #hero img {
-    
+
     border-radius: 5px;
 }
 
+.hero-text {
+    position: absolute;
+    background-color: var(--border-background-color);
+    top: 20%;
+    left: 15%;
+    color: white;
+    border-radius: 5px;
+    height: 100px;
+    padding:5px;
+
+}
 
 
 #book-button {
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 38%;
     font-size: 20px;
     border-radius: 5px;
@@ -138,8 +152,8 @@ header {
     border-radius: 5px;
     width: 300px;
     text-align: center;
-    margin:0 auto;
-    margin-bottom:5px;
+    margin: 0 auto;
+    margin-bottom: 5px;
 
 }
 
