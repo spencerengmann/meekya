@@ -115,7 +115,7 @@ header {
     color: white;
     border-radius: 5px;
     height: 100px;
-    padding:5px;
+    padding: 5px;
 
 }
 
@@ -168,6 +168,8 @@ header {
     padding: 10px;
     border-radius: 5px;
     margin: 5px;
+
+    /* margin: 0 auto; */
 }
 
 .services img {
@@ -209,4 +211,24 @@ footer img {
 
 .footer-contact-details p b {
     color: black;
+}
+
+/* book now styles */
+.services-section button {
+    background-color: var(--accent-color);
+
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.services-section button:hover {
+    background-color: var(--accent-color2);
+
+    color: white;
 }
