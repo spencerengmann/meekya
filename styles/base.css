@@ -126,6 +126,23 @@ header {
     left: 38%;
     font-size: 20px;
     border-radius: 5px;
+    cursor: pointer;
+    animation: pulsate 1.5s infinite;
+    transition: all 0.3s ease;
+}
+
+@keyframes pulsate {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
 }
 
 #hero p {
